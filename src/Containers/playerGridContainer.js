@@ -5,6 +5,9 @@ class PlayerGridContainer extends Component {
   render(){
         return(
             <section id="playersContainer">
+              <button id="formation">Formation</button>
+              <input id="teamName" placeholder="Team Name"/>
+
               <p id="gk"> Kepa Arizabalaga</p>
 
               <p id="lb"> Ben Chilwell</p>

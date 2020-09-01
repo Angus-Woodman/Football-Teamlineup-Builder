@@ -1,7 +1,7 @@
 {
-  "name": "mugisha_react_boilerplate",
+  "name": "Angus-Woodman_react_boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "React poject boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode-development",

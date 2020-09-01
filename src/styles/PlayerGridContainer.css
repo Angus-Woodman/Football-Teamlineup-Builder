@@ -12,6 +12,24 @@
   grid-template-rows: repeat(9, var(--gridBoxHeight));
 }
 
+#formation {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  border: solid 1px black;
+  align-self: center;
+}
+
+#teamName {
+  font-size: 4vw;
+  text-align: center;
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  border: solid 1px black;
+  align-self: center;
+}
+
 #gk {
     grid-column-start: 5;
     grid-row-start: 9;

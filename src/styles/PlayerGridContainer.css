@@ -1,0 +1,90 @@
+:root {
+  --gridBoxHeight: 10vh;
+  --gridBoxWidth: 10vw;
+}
+
+#playersContainer {
+  border: solid 1px black;
+  display: grid;
+  margin: 5vw 5vw 5vw 5vw;
+  width:90vw;
+  grid-template-columns: repeat(9, var(--gridBoxWidth));
+  grid-template-rows: repeat(9, var(--gridBoxHeight));
+}
+
+#gk {
+    grid-column-start: 5;
+    grid-row-start: 9;
+    border: solid 1px black;
+    align-self: center;
+  }
+
+#lb {
+    grid-column-start: 2;
+    grid-row-start: 8;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#cb1 {
+    grid-column-start: 4;
+    grid-row-start: 8;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#cb2 {
+    grid-column-start: 6;
+    grid-row-start: 8;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#rb {
+    grid-column-start: 8;
+    grid-row-start: 8;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#cm1 {
+    grid-column-start: 4;
+    grid-row-start: 6;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#cdm {
+    grid-column-start: 5;
+    grid-row-start: 7;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#cm2 {
+    grid-column-start: 6;
+    grid-row-start: 6;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#lw {
+    grid-column-start: 2;
+    grid-row-start: 5;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#rw {
+    grid-column-start: 8;
+    grid-row-start: 5;
+    border: solid 1px black;
+    align-self: center;
+}
+
+#st {
+  grid-column-start: 5;
+  grid-row-start: 4;
+  border: solid 1px black;
+  align-self: center;
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import "./styles/App.css";
+import PlayerGridContainer from "./Containers/playerGridContainer"
+
 class App extends React.Component {
   state = {};
   render() {
     return (
       <>
-        <h1>New React App</h1>
-        <h2>Happy Coding</h2>
+        <PlayerGridContainer/>
       </>
     );
   }
